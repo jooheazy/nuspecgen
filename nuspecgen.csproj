@@ -5,6 +5,6 @@
     <ProjectGuid>{3D6A04DF-527B-4405-AE21-DD40BBFD3CE8}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="servico\" />
+    <Folder Include="template\" />
   </ItemGroup>
 </Project>
