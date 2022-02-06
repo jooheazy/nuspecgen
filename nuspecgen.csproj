@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <ProjectGuid>{3D6A04DF-527B-4405-AE21-DD40BBFD3CE8}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="servico\" />
+  </ItemGroup>
+</Project>
