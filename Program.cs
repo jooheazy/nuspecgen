@@ -1,4 +1,5 @@
 ﻿using System;
+using nuspecgen.servico;
 
 namespace nuspecgen
 {
@@ -6,11 +7,17 @@ namespace nuspecgen
     {
         static void Main(string[] args)
         {
-            string a = args[0];
-            if (a == "1")
-            {
-                Console.WriteLine("Hello World!");
-            }
+            string id = args[0];
+            string version = args[1];
+            string authors = args[2];
+            string description = args[3];
+            string files = args[4];
+            string nuspec = args[5];
+
+            ControleExecucao controleExecucao = new ControleExecucao();
+
+            controleExecucao.exec(id, version, authors, description, files, nuspec);
+
         }
     }
 }
